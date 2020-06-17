@@ -1,0 +1,7 @@
+{
+  "name": "ortopedia",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
