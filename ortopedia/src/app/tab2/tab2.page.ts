@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { NavController } from '@ionic/angular';
 
 @Component({
   selector: 'app-tab2',
@@ -7,6 +8,10 @@ import { Component } from '@angular/core';
 })
 export class Tab2Page {
 
-  constructor() {}
+  constructor(public navCtrl: NavController) {}
+
+  async irPagina(pagina: any) {
+    this.navCtrl.navigateForward('/tabs/tab2/' + pagina);
+  }
 
 }

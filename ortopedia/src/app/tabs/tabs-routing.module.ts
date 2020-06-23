@@ -24,6 +24,51 @@ const routes: Routes = [
             path: '',
             loadChildren: () =>
             import('../tab2/tab2.module').then(m => m.Tab2PageModule)
+          },
+          {
+          path: 'eventos',
+          loadChildren: () =>
+          import('../pages/eventos/eventos.module').then( m => m.EventosPageModule)
+          },
+          {
+          path: 'membresia',
+          loadChildren: () =>
+          import('../pages/membresia/membresia.module').then( m => m.MembresiaPageModule)
+          },
+          {
+          path: 'cursos',
+          loadChildren: () =>
+          import('../pages/cursos/cursos.module').then( m => m.CursosPageModule)
+          },
+          {
+          path: 'webinars',
+          loadChildren: () =>
+          import('../pages/webinars/webinars.module').then( m => m.WebinarsPageModule)
+          },
+          {
+          path: 'publicaciones',
+          loadChildren: () =>
+          import('../pages/publicaciones/publicaciones.module').then( m => m.PublicacionesPageModule)
+          },
+          {
+          path: 'socios',
+          loadChildren: () =>
+          import('../pages/socios/socios.module').then( m => m.SociosPageModule)
+          },
+          {
+          path: 'consejo',
+          loadChildren: () =>
+          import('../pages/consejo/consejo.module').then( m => m.ConsejoPageModule)
+          },
+          {
+          path: 'contacto',
+          loadChildren: () =>
+          import('../pages/contacto/contacto.module').then( m => m.ContactoPageModule)
+          },
+          {
+          path: 'biblio',
+          loadChildren: () =>
+          import('../pages/biblio/biblio.module').then( m => m.BiblioPageModule)
           }
         ]
       },

@@ -81,6 +81,10 @@
     --ion-color-gold-contrast-rgb: #f80000;
     --ion-color-gold-shade: #b8d4fd;
     --ion-color-gold-tint: #082e7a;
+
+    /*Font*/
+
+    --ion-font-family: "Colvetica-regular";
 }
 
 @media (prefers-color-scheme: dark) {
@@ -234,4 +238,11 @@
 
     --ion-tab-bar-background: #1f1f1f;
   }
+}
+
+@font-face{
+  font-family: "Colvetica-Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../assets/font/coolvetica\ rg.ttf");
 }
