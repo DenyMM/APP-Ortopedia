@@ -1,0 +1,43 @@
+ion-content.background{
+    --background: url(../../assets/ortopedia/FONDO2.png ) 0 0/100% 100% no-repeat;
+    box-shadow: none !important;
+}
+
+.menu{
+    font-size: xxx-larger;
+    font-weight: 700;
+    text-align: center;
+    margin-top:1px;
+}
+
+.menu-botonl{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.menu-botonm{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.menu-botonr{
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.menu-card{
+    --background: #00000000;
+    box-shadow: none !important;
+    width: 100%;
+    padding: 1px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}

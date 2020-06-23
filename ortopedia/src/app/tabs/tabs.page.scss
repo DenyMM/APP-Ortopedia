@@ -1,1 +1,48 @@
+.gold-circle{
+    --background: url(../../assets/ortopedia/botton-tab.png ) 0 0/100% 100% no-repeat;
+    --background-focused: #ffffff;
+    --background-focused-opacity: #ffffff;
+    border-radius: 200px 200px 200px 200px;
+-moz-border-radius: 200px 200px 200px 200px;
+-webkit-border-radius: 200px 200px 200px 200px;
+border: 0px solid #000000;
+margin: 35px;
+--color:#1b1565;
+--color-selected: #ffffff;
+}
 
+.notif{
+    --background: url(../../assets/ortopedia/NOTIFICACION.png ) 0 0/100% 100% no-repeat;
+    border: 0px solid #000000;
+    margin: 80px;
+    margin-right: -13px;
+}
+
+.home{
+    --background: url(../../assets/ortopedia/HOME.png ) 0 0/100% 100% no-repeat;
+    border: 0px solid #000000;
+    margin: 35px;
+}
+
+.perf{
+    --background: url(../../assets/ortopedia/USUARIO.png ) 0 0/100% 100% no-repeat;
+    border: 0px solid #000000;
+    margin: 80px;
+    margin-left: -13px;
+}
+
+.transparent{
+    --background: #1a1b73;
+    --border: none !important;
+}
+
+ion-tab-bar{
+    padding-bottom: 5px;
+    padding-top: 5px;
+    box-shadow: none !important;
+    --border: none !important;
+}
+
+ion-icon{
+    width: 100%;
+}

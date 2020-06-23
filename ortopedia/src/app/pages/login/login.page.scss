@@ -1,0 +1,59 @@
+ion-content.background{
+    --background: url(../../../assets/ortopedia/FONDO2.png ) 0 0/100% 100% no-repeat;
+}
+
+.welcome{
+    font-weight: 700;
+    margin-left: 30px;
+    margin-top: 1px;
+    font-size: xxx-large;
+}
+
+.item-login{
+    --background: url(../../../assets/ortopedia/label-login.png)0 0/100% 100% no-repeat;
+    box-shadow: none !important;
+}
+
+.input-login{
+    --placeholder-font-weight: 700;
+    --placeholder-opacity: 100% ;
+    --placeholder-color: #ffffff;
+    font-size: large;
+    margin-left: 30px;
+    box-shadow: none !important;
+}
+
+.forget{
+    --background: #ffffff00;
+    --background-activated: #ffffff00;
+    --color-activated: #c99030;
+    text-align: center;
+    font-size: medium;
+    --border-color: 0px solid #00000000;
+}
+
+.login{
+    --background: #c99030;
+    --color:#ffffff;
+    border-radius: 200px 200px 200px 200px;
+    -moz-border-radius: 200px 200px 200px 200px;
+    -webkit-border-radius: 200px 200px 200px 200px;
+    border: 0px solid #000000;
+    font-weight: 400;
+    font-size: large;
+    text-align: center;
+   padding: 15px;
+   --background-activated: #ffffff00;
+   --color-activated: #c99030;
+    
+}
+
+ion-item{
+    box-shadow: none !important;
+    background: #ffffff00;
+}
+
+ion-button{
+    box-shadow: none !important;
+  	  
+}

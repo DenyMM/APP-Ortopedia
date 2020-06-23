@@ -1,10 +1,90 @@
 ion-content.background{
-    --background: var(--ion-color-primary);
+    --background: url(../../assets/ortopedia/FONDO2.png ) 0 0/100% 100% no-repeat;
 }
 .prueba{
     border-radius: 200px 200px 200px 200px;
 -moz-border-radius: 200px 200px 200px 200px;
 -webkit-border-radius: 200px 200px 200px 200px;
 border: 0px solid #000000;
-    background-color: #0c7b8a;
+    background-color: #0c7b8a00;
+    text-align: center;
+}
+
+.redes{
+    border-radius: 200px 200px 200px 200px;
+-moz-border-radius: 200px 200px 200px 200px;
+-webkit-border-radius: 200px 200px 200px 200px;
+border: 2px solid #c99030;
+background-color: #00000000;
+}
+.gold{
+    --background: #00000000;
+    --background-checked: #ffffff;
+    --border-color: #c99030;
+    --border-color-checked: #c99030;
+    --border-radius: 15px;
+    padding-top: 1px;
+}
+
+.redes-size{
+    width: 100%;
+    padding: 6px;
+}
+
+.anual{
+    border-radius: 30px 30px 100px 99px;
+-moz-border-radius: 30px 30px 100px 99px;
+-webkit-border-radius: 30px 30px 100px 99px;
+border: 2px solid #c99030;
+    background-color: #00000000;
+}
+
+.no-padd{
+    margin: 2px;
+}
+
+.transparent{
+    --background: #00000000;
+    --background-activated: #c99030;
+    box-shadow: none !important;
+    
+    	
+}
+
+.button-font{
+    color: #ffffff;
+    font-size: large;
+}
+
+.lineY{
+    border-bottom: thick #c99030;
+}
+
+ion-button{
+    box-shadow: none !important;
+    border: none !important;	  
+}
+
+.exit{
+    --background: #c99030;
+    --color:#ffffff;
+    --border-radius: 200px 200px 200px 200px;
+border: 0px solid #000000;
+}
+
+ion-toolbar.transparent{
+ background-color: #0e5fff;
+}
+
+h1{
+    font-weight: 600;
+    text-align: center;
+}
+h2{
+    font-weight: 400;
+    text-align: center;
+}
+p{
+    font-weight: 500;
+    text-align: center;
 }
