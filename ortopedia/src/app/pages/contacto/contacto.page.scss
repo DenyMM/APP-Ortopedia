@@ -1,0 +1,56 @@
+ion-content.background{
+    --background: url(../../../assets/ortopedia/FONDO2.png ) 0 0/100% 100% no-repeat;
+    --color: #ffff;
+}
+
+.center{
+    text-align: center; 
+   }
+   
+   .little{
+       font-size: medium;
+   }
+
+   .yellow{
+    --background: rgba(255, 255, 255, 0) ;
+    --color:#ffff;
+    border-radius: 91px 91px 91px 91px;
+-moz-border-radius: 91px 91px 91px 91px;
+-webkit-border-radius: 91px 91px 91px 91px;
+border: 2px solid #c99030;
+margin-inline-end: auto;
+}
+
+.transp{
+    --background: rgba(255, 255, 255, 0) ;
+    --color:#ffff;
+border: 0px solid #c9913000;
+margin-inline-end: auto;
+box-shadow: none !important;
+}
+
+
+.cont{
+    font-size: xx-large;
+    text-align: end;
+    margin-right: 9px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.medium{
+    font-size: large;
+    margin-right: 4px;
+    margin-top: 9px;
+    margin-bottom: 9px;
+}
+
+.middl{
+    font-size: larger;
+    margin-top: 35px;
+}
+
+.smalle{
+    font-size: x-small;
+    margin-top: 9px;
+}
