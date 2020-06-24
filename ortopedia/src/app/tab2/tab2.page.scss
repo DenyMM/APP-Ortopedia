@@ -33,11 +33,25 @@ ion-content.background{
 .menu-card{
     --background: #00000000;
     box-shadow: none !important;
-    width: 100%;
+    width: 85%;
     padding: 1px;
     margin-left: auto;
     margin-right: auto;
     display: block;
     margin-top: 1px;
     margin-bottom: 1px;
+}
+
+.menu-left{
+    margin-left: 20px;
+    margin-right: -25px;
+}
+
+.menu-right{
+    margin-right: 20px;
+    margin-left: -25px;
+}
+
+.row-mix{
+    margin-bottom: 15px;
 }
