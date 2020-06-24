@@ -19,38 +19,46 @@ ion-content.background{
 -webkit-border-radius: 91px 91px 91px 91px;
 border: 2px solid #c99030;
 margin-inline-end: auto;
+text-size-adjust: auto;
+box-shadow: none !important;
 }
 
 .transp{
-    --background: rgba(255, 255, 255, 0) ;
+    --background: none;
     --color:#ffff;
+    box-shadow: none !important;
 border: 0px solid #c9913000;
 margin-inline-end: auto;
-box-shadow: none !important;
 }
 
 
 .cont{
-    font-size: xx-large;
+    font-size: x-large;
     text-align: end;
-    margin-right: 9px;
+    margin-right: 18px;
     margin-top: 10px;
     margin-bottom: 10px;
+    background-size: contain;
 }
 
 .medium{
     font-size: large;
     margin-right: 4px;
     margin-top: 9px;
-    margin-bottom: 9px;
+    
 }
 
 .middl{
     font-size: larger;
-    margin-top: 35px;
+    
 }
 
 .smalle{
     font-size: x-small;
     margin-top: 9px;
+}
+
+.smallrow{
+    margin-top: -18px;
+    margin-bottom: -44px;
 }

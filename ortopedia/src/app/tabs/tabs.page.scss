@@ -14,21 +14,26 @@ margin: 35px;
 .notif{
     --background: url(../../assets/ortopedia/NOTIFICACION.png ) 0 0/100% 100% no-repeat;
     border: 0px solid #000000;
-    margin: 80px;
-    margin-right: -13px;
+    margin: 90px;
+    margin-right: 7px;
+    background-size: contain;
 }
+
 
 .home{
     --background: url(../../assets/ortopedia/HOME.png ) 0 0/100% 100% no-repeat;
     border: 0px solid #000000;
-    margin: 35px;
+    /*margin: 35px;*/
+    margin: auto;
+    background-size: contain;
 }
 
 .perf{
     --background: url(../../assets/ortopedia/USUARIO.png ) 0 0/100% 100% no-repeat;
     border: 0px solid #000000;
-    margin: 80px;
-    margin-left: -13px;
+    margin: 90px;
+    margin-left: 7px;
+    background-size: contain;
 }
 
 .transparent{
@@ -37,6 +42,7 @@ margin: 35px;
 }
 
 ion-tab-bar{
+    /*margin: 13px;*/
     padding-bottom: 5px;
     padding-top: 5px;
     box-shadow: none !important;
