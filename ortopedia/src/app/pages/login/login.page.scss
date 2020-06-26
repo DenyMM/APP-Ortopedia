@@ -7,11 +7,13 @@ ion-content.background{
     margin-left: 30px;
     margin-top: 1px;
     font-size: xxx-large;
+    color: #ffffff;
 }
 
 .item-login{
     --background: url(../../../assets/ortopedia/label-login.png)0 0/100% 100% no-repeat;
     box-shadow: none !important;
+    color: #ffffff;
 }
 
 .input-login{
@@ -21,6 +23,7 @@ ion-content.background{
     font-size: large;
     margin-left: 30px;
     box-shadow: none !important;
+    color: #ffffff;
 }
 
 .forget{
@@ -30,6 +33,7 @@ ion-content.background{
     text-align: center;
     font-size: medium;
     --border-color: 0px solid #00000000;
+    color: #ffffff;
 }
 
 .login{
@@ -45,17 +49,18 @@ ion-content.background{
    padding: 15px;
    --background-activated: #ffffff00;
    --color-activated: #c99030;
-    
+   color: #ffffff;
 }
 
 ion-item{
     box-shadow: none !important;
     background: #ffffff00;
+    color: #ffffff;
 }
 
 ion-button{
     box-shadow: none !important;
-  	  
+    color: #ffffff;
 }
 
 h1,h2,h3,h4,p,ion-label{
