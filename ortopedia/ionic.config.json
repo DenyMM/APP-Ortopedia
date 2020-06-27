@@ -1,7 +1,8 @@
 {
   "name": "ortopedia",
   "integrations": {
-    "capacitor": {}
+    "capacitor": {},
+    "cordova": {}
   },
   "type": "angular"
 }

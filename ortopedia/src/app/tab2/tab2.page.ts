@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+
+import { InAppBrowser } from '@ionic-native/in-app-browser/ngx';
 import { NavController } from '@ionic/angular';
 
 @Component({
@@ -8,10 +10,14 @@ import { NavController } from '@ionic/angular';
 })
 export class Tab2Page {
 
-  constructor(public navCtrl: NavController) {}
+  constructor(private iab: InAppBrowser, public navCtrl: NavController) {}
 
   async irPagina(pagina: any) {
     this.navCtrl.navigateForward('/tabs/tab2/' + pagina);
+  }
+
+  navegar(ruta: string) {
+    this.iab.create(ruta, '_system');
   }
 
 }

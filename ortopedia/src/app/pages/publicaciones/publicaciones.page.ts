@@ -1,4 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
+import { InAppBrowser } from '@ionic-native/in-app-browser/ngx';
+import { NavController } from '@ionic/angular';
 
 @Component({
   selector: 'app-publicaciones',
@@ -7,9 +9,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PublicacionesPage implements OnInit {
 
-  constructor() { }
+  constructor(private iab: InAppBrowser, public navCtrl: NavController) { }
 
-  ngOnInit() {
+  navegar(ruta: string) {
+    this.iab.create(ruta, '_system');
   }
 
 }
